@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11116" started-at="2016-07-15T01:37:02Z" finished-at="2016-07-15T01:37:13Z">
+  <suite name="Default suite" duration-ms="19998" started-at="2016-07-15T02:25:45Z" finished-at="2016-07-15T02:26:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11116" started-at="2016-07-15T01:37:02Z" finished-at="2016-07-15T01:37:13Z">
-      <class name="ru.stqa.selenium.LoginTrue">
-        <test-method status="PASS" signature="initTestSuite()[pri:0, instance:ru.stqa.selenium.LoginTrue@77caeb3e]" name="initTestSuite" is-config="true" duration-ms="93" started-at="2016-07-15T08:37:01Z" finished-at="2016-07-15T08:37:02Z">
+    <test name="Default test" duration-ms="19998" started-at="2016-07-15T02:25:45Z" finished-at="2016-07-15T02:26:05Z">
+      <class name="ru.stqa.selenium.CheckButtons">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ru.stqa.selenium.CheckButtons@5622fdf]" name="setUp" is-config="true" duration-ms="6621" started-at="2016-07-15T09:25:45Z" finished-at="2016-07-15T09:25:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initTestSuite -->
-        <test-method status="PASS" signature="initWebDriver()[pri:0, instance:ru.stqa.selenium.LoginTrue@77caeb3e]" name="initWebDriver" is-config="true" duration-ms="7301" started-at="2016-07-15T08:37:02Z" finished-at="2016-07-15T08:37:09Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testCheckButtons()[pri:0, instance:ru.stqa.selenium.CheckButtons@5622fdf]" name="testCheckButtons" duration-ms="12658" started-at="2016-07-15T09:25:51Z" finished-at="2016-07-15T09:26:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initWebDriver -->
-        <test-method status="PASS" signature="testLoginTrue()[pri:0, instance:ru.stqa.selenium.LoginTrue@77caeb3e]" name="testLoginTrue" duration-ms="3802" started-at="2016-07-15T08:37:09Z" finished-at="2016-07-15T08:37:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLoginTrue -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.stqa.selenium.LoginTrue@77caeb3e]" name="tearDown" is-config="true" duration-ms="736" started-at="2016-07-15T08:37:13Z" finished-at="2016-07-15T08:37:13Z">
+        </test-method> <!-- testCheckButtons -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.stqa.selenium.CheckButtons@5622fdf]" name="tearDown" is-config="true" duration-ms="704" started-at="2016-07-15T09:26:04Z" finished-at="2016-07-15T09:26:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- ru.stqa.selenium.LoginTrue -->
+      </class> <!-- ru.stqa.selenium.CheckButtons -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
